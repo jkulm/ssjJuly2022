@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fa622a65-9ad5-4978-9407-062ed36290a9}">
+		<property name="assetPath">
+			<value>FOOTSTEPS_BOOTS_GRAVEL_FINE_STEP02.WAV</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.53863945578231287</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{eb40ce51-15be-4a0d-8cfb-9494e01aba2a}</destination>
+		</relationship>
+	</object>
+</objects>

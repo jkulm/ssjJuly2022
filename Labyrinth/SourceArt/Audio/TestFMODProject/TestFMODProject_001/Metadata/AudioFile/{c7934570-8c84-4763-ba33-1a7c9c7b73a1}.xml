@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c7934570-8c84-4763-ba33-1a7c9c7b73a1}">
+		<property name="assetPath">
+			<value>ExplosionLarge.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.9000208333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{eb40ce51-15be-4a0d-8cfb-9494e01aba2a}</destination>
+		</relationship>
+	</object>
+</objects>

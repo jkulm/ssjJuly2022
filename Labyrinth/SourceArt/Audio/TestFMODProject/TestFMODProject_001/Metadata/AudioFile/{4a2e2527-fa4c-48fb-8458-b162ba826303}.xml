@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4a2e2527-fa4c-48fb-8458-b162ba826303}">
+		<property name="assetPath">
+			<value>Twister_med_01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>11.922585034013606</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{eb40ce51-15be-4a0d-8cfb-9494e01aba2a}</destination>
+		</relationship>
+	</object>
+</objects>
