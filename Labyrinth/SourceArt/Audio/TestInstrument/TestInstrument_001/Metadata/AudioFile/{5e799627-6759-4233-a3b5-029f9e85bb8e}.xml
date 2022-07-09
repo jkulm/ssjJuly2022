@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5e799627-6759-4233-a3b5-029f9e85bb8e}">
+		<property name="assetPath">
+			<value>TomD.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b9fe7bbc-d25e-46e2-8661-84896d3c3ecc}</destination>
+		</relationship>
+	</object>
+</objects>

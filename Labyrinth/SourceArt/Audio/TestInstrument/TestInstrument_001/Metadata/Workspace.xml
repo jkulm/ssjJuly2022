@@ -5,34 +5,35 @@
 			<value>../../../../Content/FMOD</value>
 		</property>
 		<relationship name="masterEventFolder">
-			<destination>{bae3367b-1fd5-4434-854d-b24c3afdea0e}</destination>
+			<destination>{cd2ba559-025c-4d86-97dc-e390c7869edb}</destination>
 		</relationship>
 		<relationship name="masterTagFolder">
-			<destination>{a70a1a15-af50-47db-a97a-1eedefac7b33}</destination>
+			<destination>{c29b0262-b7cd-4316-862f-cb342c0e9748}</destination>
 		</relationship>
 		<relationship name="masterEffectPresetFolder">
-			<destination>{6028326f-f00f-4c20-9bef-47394ad68085}</destination>
+			<destination>{1e6d7ec9-249b-40e0-8795-436b8fb50d62}</destination>
 		</relationship>
 		<relationship name="masterParameterPresetFolder">
-			<destination>{0e7ca809-c093-408d-9055-90e32af8667d}</destination>
+			<destination>{b4042a5a-5182-4530-9592-a9533b8a99e6}</destination>
 		</relationship>
 		<relationship name="masterBankFolder">
-			<destination>{e38d7b71-4cbc-4e4e-aa98-a687114cbaa1}</destination>
+			<destination>{6f8d778f-b286-4ff2-ba7c-bb8b399625c3}</destination>
 		</relationship>
 		<relationship name="masterSandboxFolder">
-			<destination>{f933b057-b6b2-4d70-96f4-17f30125da69}</destination>
+			<destination>{9c462949-b27b-475a-9e86-0a0f463af265}</destination>
 		</relationship>
 		<relationship name="masterAssetFolder">
-			<destination>{1ebfe2fa-b634-4610-8402-86506c73e702}</destination>
+			<destination>{b9fe7bbc-d25e-46e2-8661-84896d3c3ecc}</destination>
 		</relationship>
 		<relationship name="mixer">
-			<destination>{22494017-7dd0-47ca-94e0-c670a2da9961}</destination>
+			<destination>{df2a536a-b908-441d-a5f4-554841862c0d}</destination>
 		</relationship>
 		<relationship name="profilerSessionFolder">
-			<destination>{f378fcc6-d8c2-4f92-8354-343c03e4a9f6}</destination>
+			<destination>{2bb75fed-df3b-445a-805b-b82ad8065e7e}</destination>
 		</relationship>
 		<relationship name="platforms">
 			<destination>{30fbfcbf-6d12-4550-8824-bb384e190863}</destination>
+			<destination>{9560ca30-4c6f-41c2-94c6-50f830c6e59a}</destination>
 		</relationship>
 	</object>
 </objects>
