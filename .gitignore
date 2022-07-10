@@ -76,3 +76,5 @@
 #FMOD
 !*/Plugins/*/Binaries/*/**
 !*/SourceArt/
+*/SourceArt/**/.unsaved/*
+*/SourceArt/**/.unsaved/*.data
