@@ -47,7 +47,7 @@
 
 # Binary Files
 */Binaries/*
-*/Plugins/*/Binaries/*
+#*/Plugins/*/Binaries/*
 
 # Builds
 */Build/*
@@ -72,3 +72,6 @@
 
 # Cache files for the editor to use
 */DerivedDataCache/*
+
+#FMOD
+!*/Plugins/*/Binaries/*/**
