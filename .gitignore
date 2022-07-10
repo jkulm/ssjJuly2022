@@ -76,5 +76,7 @@
 #FMOD
 !*/Plugins/*/Binaries/*/**
 !*/SourceArt/
-*/SourceArt/**/.unsaved/*
-*/SourceArt/**/.unsaved/*.data
+*/SourceArt/Audio/*/.user/*
+*/SourceArt/Audio/*/.cache/*
+*/SourceArt/Audio/*/.unsaved/*
+!*/SourceArt/Audio/*/*.fspro
