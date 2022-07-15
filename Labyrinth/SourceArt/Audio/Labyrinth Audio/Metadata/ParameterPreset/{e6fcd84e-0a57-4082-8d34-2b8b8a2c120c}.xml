@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e6fcd84e-0a57-4082-8d34-2b8b8a2c120c}">
+		<property name="name">
+			<value>Track4</value>
+		</property>
+		<relationship name="folder">
+			<destination>{48a86902-8ca0-4dba-af03-75ca4e0d223e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3a33c59c-88cf-478a-a490-a1911283f402}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3a33c59c-88cf-478a-a490-a1911283f402}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
