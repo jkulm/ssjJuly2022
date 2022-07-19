@@ -97,6 +97,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5398a7bd-54e8-4a3c-9e3e-11058be24df1}">
+		<property name="volume">
+			<value>6</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -120,9 +123,27 @@
 	<object class="MixerBusEffectChain" id="{e6477487-365b-4c22-96e9-70acc3f902d9}">
 		<relationship name="effects">
 			<destination>{82fc3609-0598-4c9e-a6eb-3bab6e1f0ead}</destination>
+			<destination>{e97eacd7-f704-48d5-9486-a831f68435e6}</destination>
+			<destination>{99cef326-3bec-4376-9265-e20149fdbdae}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e4b39720-302c-400b-8a12-d2565d180fa2}" />
 	<object class="MixerBusFader" id="{d52dae71-8871-41a4-9803-f1db162e9c4b}" />
 	<object class="MixerBusFader" id="{82fc3609-0598-4c9e-a6eb-3bab6e1f0ead}" />
+	<object class="ThreeEQEffect" id="{e97eacd7-f704-48d5-9486-a831f68435e6}">
+		<property name="lowGain">
+			<value>1</value>
+		</property>
+		<property name="midGain">
+			<value>-10.5</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{99cef326-3bec-4376-9265-e20149fdbdae}">
+		<property name="wetLevel">
+			<value>-13.5</value>
+		</property>
+	</object>
 </objects>
