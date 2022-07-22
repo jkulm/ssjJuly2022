@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{87498767-d9f1-4d51-b2a3-d3a77258badd}">
+		<property name="assetPath">
+			<value>Wind.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>72.644988662131524</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a9536231-6f9a-475e-b3be-134ab5d7adee}</destination>
+		</relationship>
+	</object>
+</objects>

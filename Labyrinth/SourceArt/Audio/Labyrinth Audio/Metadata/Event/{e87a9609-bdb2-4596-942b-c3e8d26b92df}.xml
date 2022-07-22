@@ -24,6 +24,7 @@
 		</relationship>
 		<relationship name="markerTracks">
 			<destination>{56d28bc0-71bd-4c3a-b320-0376f51eae38}</destination>
+			<destination>{74d96747-1dfc-4507-a216-6fa1b8bb1455}</destination>
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{619f82d3-9e1f-4e6a-a92f-cb2dbd2dcea5}</destination>
@@ -65,6 +66,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{9416bc4a-16a0-461c-bca7-7f7e4e40d8b5}" />
 	<object class="MarkerTrack" id="{56d28bc0-71bd-4c3a-b320-0376f51eae38}" />
+	<object class="MarkerTrack" id="{74d96747-1dfc-4507-a216-6fa1b8bb1455}" />
 	<object class="GroupTrack" id="{619f82d3-9e1f-4e6a-a92f-cb2dbd2dcea5}">
 		<relationship name="modules">
 			<destination>{f08ccf70-292f-424c-a1d8-1ed3da69b94a}</destination>
@@ -87,6 +89,7 @@
 		<relationship name="markers">
 			<destination>{9b13f594-3ede-467a-bcde-ba9ed847c04a}</destination>
 			<destination>{906c49ca-7d41-49f0-8377-3c08408dadf3}</destination>
+			<destination>{85e59569-09a4-430b-8d19-11baf4c335d9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f6bd0c0c-a64c-4b30-864e-555162683fab}">
@@ -200,6 +203,26 @@
 		</relationship>
 		<relationship name="destination">
 			<destination>{9b13f594-3ede-467a-bcde-ba9ed847c04a}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{85e59569-09a4-430b-8d19-11baf4c335d9}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>32.194263038548755</value>
+		</property>
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>13.5</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b08bb5ce-24af-4b53-a167-64852e17ca9b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{74d96747-1dfc-4507-a216-6fa1b8bb1455}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{fe2b2073-5d3c-4f18-bba2-fbaa61ad7452}">
