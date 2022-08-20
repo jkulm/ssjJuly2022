@@ -63,6 +63,11 @@
 			"Name": "InstanceTool",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/0283702886e8467383899c7b791c4b40"
+		},
+		{
+			"Name": "CustomUserSettings",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/2f0902b26a7046c99bbf3a76d9f83a2b"
 		}
 	]
 }

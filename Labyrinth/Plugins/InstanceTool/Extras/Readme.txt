@@ -1,0 +1,1 @@
+To install the plugin for UE5, please extract the content of the zip file into Engine's plugin folder (e.g. C:\Program Files\Epic Games\UE_5.0\Engine\Plugins\).
