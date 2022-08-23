@@ -61,6 +61,7 @@
 <li><a href="#ps5">PS5</a><ul>
 <li><a href="#packaging_7">Packaging</a></li>
 <li><a href="#disabling-the-unreal-audio-device_4">Disabling the Unreal Audio Device</a></li>
+<li><a href="#using-controller-vibration">Using Controller Vibration</a></li>
 </ul>
 </li>
 <li><a href="#stadia">Stadia</a><ul>
@@ -270,6 +271,12 @@ AudioDeviceModuleName=
 AudioMixerModuleName=
 </pre></div>
 
+<h3 id="using-controller-vibration"><a href="#using-controller-vibration">7.8.3 Using Controller Vibration</a></h3>
+<p>To enable vibration for the PS5 controller add these lines to <code>PS5Engine.ini</code>:</p>
+<div class="highlight language-text"><pre><span></span>[SonyController]
+bAdvancedVibrationMode=true
+</pre></div>
+
 <h2 id="stadia"><a href="#stadia">7.9 Stadia</a></h2>
 <h3 id="packaging_8"><a href="#packaging_8">7.9.1 Packaging</a></h3>
 <p>Banks for the Stadia are expected to be located in the <code>Stadia</code> sub-directory of the Studio built banks output directory. This sub-directory name is hardcoded in the integration so if you want to use a different location you would need to modify the integration source code.</p>
@@ -394,7 +401,7 @@ EnvironmentVariables.Add(&quot;_NT_SYMBOL_PATH&quot;, SymbolPath);
 <p>Then, on your build machine you need to set the value of <code>_NT_SYMBOL_PATH</code> to where the FMOD PDBs will be.<br />
 Eg. "[MyGame]\Plugins\FMODStudio\Binaries\XBoxOne" or "[MyGame]\Platforms\XboxOne\Plugins\FMODStudio\Binaries".</p></div>
 
-<p class="manual-footer">Unreal Integration 2.02.07 (2022-05-18). &copy; 2022 Firelight Technologies Pty Ltd.</p>
+<p class="manual-footer">Unreal Integration 2.02.08 (2022-08-15). &copy; 2022 Firelight Technologies Pty Ltd.</p>
 </body>
 </html>
 

@@ -248,7 +248,7 @@
 <h3 id="other-avenues"><a href="#other-avenues">2.3.3 Other avenues</a></h3>
 <p>Keep in mind that more advanced control is also available from blueprints. There are graph functions for playing and stopping events, setting parameters, and loading or unloading banks. You can also add <a href="api-reference-ufmodaudiocomponent.html">FMODAudioComponents</a> to blueprints, allowing you attach audio directly to an object.</p>
 <h2 id="listener"><a href="#listener">2.4 Listener</a></h2>
-<p>FMOD can support up to 8 listeners in game. The <a href="api-reference-ffmodlistener.html">FMODListeners</a> will follow the Unreal listeners which by default is attached to the camera, but we can move them by moving the Unreal listeners.</p>
+<p>FMOD can support up to 8 listeners in game. The listeners will follow the Unreal listeners which by default is attached to the camera, but we can move them by moving the Unreal listeners.</p>
 <p>This is particularly useful for Third-Person and Top-Down style games.</p>
 <h3 id="example"><a href="#example">2.4.1 Example</a></h3>
 <p>Using <a href="http://api.unrealengine.com/INT/BlueprintAPI/Game/Audio/SetAudioListenerOverride/index.html">SetAudioListenerOverride</a> allows you either attach the listener to a component or set the transform and rotation manually.</p>
@@ -351,7 +351,7 @@ You will need to add these parameter names to the integration settings.</p>
 <h2 id="localization"><a href="#localization">2.10 Localization</a></h2>
 <p>Localized audio tables are a special kind of audio table with features that facilitate localization. We recommend using localized audio tables if your game supports multiple spoken languages, or if you intend to add support for additional languages in a future patch.</p>
 <h3 id="setting-up-audio-tables"><a href="#setting-up-audio-tables">2.10.1 Setting up Audio Tables</a></h3>
-<p><a href="https://fmod.com/resources/documentation-api?version=2.2&amp;page=dialogue-and-localization.html#audio-tables">Audio Tables</a> are lists of audio files stored outside your FMOD Studio project's asset folder. You can use audio tables to control localized sounds. See the <a href="https://fmod.com/resources/documentation-studio?version=2.2&amp;page=dialogue-and-localization.html#localized-audio-tables">Dialogue and Localization</a> section of the <a href="https://fmod.com/resources/documentation-studio?version=2.2&amp;page=welcome-to-fmod-studio.html">FMOD Studio Docs</a> on how to set up an audio table in your project.</p>
+<p><a href="https://fmod.com/docs/2.02/api/dialogue-and-localization.html#audio-tables">Audio Tables</a> are lists of audio files stored outside your FMOD Studio project's asset folder. You can use audio tables to control localized sounds. See the <a href="https://fmod.com/docs/2.02/studio/dialogue-and-localization.html#localized-audio-tables">Dialogue and Localization</a> section of the <a href="https://fmod.com/docs/2.02/studio/welcome-to-fmod-studio.html">FMOD Studio Docs</a> on how to set up an audio table in your project.</p>
 <p><img alt="Audio Table" src="images/audio-table.png" /></p>
 <h3 id="loading-localized-banks"><a href="#loading-localized-banks">2.10.2 Loading Localized Banks</a></h3>
 <p>Audio tables are assigned to an associated bank, this means that in order to change the currently loaded audio table you will need to change the bank. Only one localized bank should be loaded at a time, otherwise just the first one to be loaded will be used.</p>
@@ -370,11 +370,11 @@ You will need to add these parameter names to the integration settings.</p>
 <ul>
 <li>Delete the old FMODStudio folder then follow the same steps from <a href="user-guide.html#installing-the-integration">Installing the integration</a>.</li>
 </ul>
-<p>If you are updating to a newer <a href="glossary.html#version">minor version</a> of FMOD no additional steps are required unless specified in the <a href="https://fmod.com/resources/documentation-api?version=2.2&amp;page=welcome-revision-history.html">revision history</a>.</p>
+<p>If you are updating to a newer <a href="glossary.html#version">minor version</a> of FMOD no additional steps are required unless specified in the <a href="https://fmod.com/docs/2.02/api/welcome-revision-history.html">revision history</a>.</p>
 <p>Upgrading to a newer <a href="glossary.html#version">major version</a> of FMOD is usually only recommend for projects at or near the beginning of development, because new major versions may  introduce behavioral and breaking changes. If you are upgrading to a new major version, you will need to read over:</p>
 <ul>
 <li><a href="welcome.html">What's new in FMOD for Unreal Integration...</a></li>
-<li><a href="https://fmod.com/resources/documentation-api?version=2.2&amp;page=welcome.html">What's new in FMOD API...</a></li>
+<li><a href="https://fmod.com/docs/2.02/api/welcome.html">What's new in FMOD API...</a></li>
 </ul>
 <p>These will describe specific changes that might need to be made to your project.</p>
 <h3 id="updating-to-ue4-426"><a href="#updating-to-ue4-426">2.11.1 Updating to UE4 4.26</a></h3>
@@ -451,7 +451,7 @@ You will need to add these parameter names to the integration settings.</p>
 <p>For further documentation, see:<br />
 - <a href="api-reference.html">Integration API Reference</a><br />
 - <a href="blueprint-reference.html">Integration Blueprint Reference</a><br />
-- <a href="https://fmod.com/resources/documentation-api?version=2.2&amp;page=welcome.html">FMOD API Reference</a>.</p>
+- <a href="https://fmod.com/docs/2.02/api/welcome.html">FMOD API Reference</a>.</p>
 <h2 id="programmer-sounds"><a href="#programmer-sounds">2.14 Programmer Sounds</a></h2>
 <p>FMOD Studio events can include programmer sound modules that are controlled at runtime. There are a few different ways of hooking them up.</p>
 <h3 id="programmer-sounds-via-audio-tables"><a href="#programmer-sounds-via-audio-tables">2.14.1 Programmer Sounds via Audio Tables</a></h3>
@@ -629,7 +629,7 @@ Now it is possible to add these generated assets to source control which will re
 </ul>
 <p>This can be especially useful for build machines that don't normally run the Editor at all, which is what normally triggers the assets to be built, and does not require the generated assets to be checked in to source control.</p></div>
 
-<p class="manual-footer">Unreal Integration 2.02.07 (2022-05-18). &copy; 2022 Firelight Technologies Pty Ltd.</p>
+<p class="manual-footer">Unreal Integration 2.02.08 (2022-08-15). &copy; 2022 Firelight Technologies Pty Ltd.</p>
 </body>
 </html>
 
