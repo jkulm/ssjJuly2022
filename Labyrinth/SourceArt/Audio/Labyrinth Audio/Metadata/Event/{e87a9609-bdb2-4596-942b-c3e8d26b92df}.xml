@@ -110,6 +110,9 @@
 		<property name="length">
 			<value>32</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{2bde63d2-4ace-431f-8cb2-95598c757437}</destination>
 			<destination>{96e94530-5bd2-49f0-a93b-e6b79d9509e7}</destination>
