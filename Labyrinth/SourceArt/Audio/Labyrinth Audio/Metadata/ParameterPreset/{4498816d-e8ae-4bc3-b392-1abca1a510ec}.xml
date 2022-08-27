@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4498816d-e8ae-4bc3-b392-1abca1a510ec}">
+		<property name="name">
+			<value>ShellshockFootsteps</value>
+		</property>
+		<relationship name="folder">
+			<destination>{48a86902-8ca0-4dba-af03-75ca4e0d223e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4e1fabb4-ac49-413f-a648-7f9cb7911759}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4e1fabb4-ac49-413f-a648-7f9cb7911759}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
