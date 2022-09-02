@@ -12,14 +12,8 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{56924686-6a50-430c-b181-4b955edc0400}">
-		<property name="minimum">
-			<value>-80</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
 		<property name="initialValue">
-			<value>-80</value>
+			<value>0</value>
 		</property>
 	</object>
 </objects>
