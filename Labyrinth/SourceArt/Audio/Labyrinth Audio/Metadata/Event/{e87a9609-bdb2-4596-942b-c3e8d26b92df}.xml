@@ -113,7 +113,6 @@
 		<property name="length">
 			<value>32</value>
 		</property>
-		<property name="name" />
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -130,6 +129,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b876780a-1c74-4d12-951b-c493b4b38482}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<property name="name">
 			<value>Torch</value>
 		</property>
